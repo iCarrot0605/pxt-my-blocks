@@ -17,11 +17,11 @@ namespace myBlocks {
         if (convertType === TempConvertType.FtoC) {
             return fToC(value);
         }
-        return Value;
+        return value;
     }
 
     //% shim=myBlocks::cToF
-    function ctoF(value: number) {
+    function cToF(value: number) {
         return 32.0; // dummy for sim
     }
 
